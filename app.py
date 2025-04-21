@@ -8,7 +8,7 @@ from email.mime.multipart import MIMEMultipart
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
-EMAIL_ADDRESS = 'qwertyhere115@gmail.com'
+EMAIL_ADDRESS = 'mushtense@gmail.com'
 EMAIL_PASSWORD = 'Nitin@007op'
 
 @app.route('/', methods=['GET', 'POST'])
